@@ -14,7 +14,8 @@ describe('Paramo Tech tests', () => {
         await RegisterPage.selectFromCurrencyDrop('mDOGE');
         await RegisterPage.enterPassword('wvt.vth8uec5nbv6CWQ');
         await RegisterPage.enterPasswordConfirmation('wvt.vth8uec5nbv6CWQ');
-        await RegisterPage.clickNoBonus();
+        //ENABLE THE FOLLOWING LINE IF CURRENCY IS USD
+        //await RegisterPage.clickNoBonus();
         await RegisterPage.clickCreateAccount();
     });
 
